@@ -29,7 +29,6 @@ class _HttpLogListWidgetState extends State<HttpLogListWidget> {
         backgroundColor: theme.scaffoldBackgroundColor,
         elevation: 1.0,
         iconTheme: theme.iconTheme,
-        textTheme: theme.textTheme,
         actions: <Widget>[
           InkWell(
             onTap: () {

@@ -47,7 +47,6 @@ class _LogWidgetState extends State<LogWidget>
         backgroundColor: theme.scaffoldBackgroundColor,
         elevation: 1.0,
         iconTheme: theme.iconTheme,
-        textTheme: theme.textTheme,
       ),
       body: PageView.builder(
         controller: _pageController,
